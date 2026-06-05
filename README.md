@@ -107,10 +107,6 @@ A modern, secure, and feature-rich banking application built with **WinUI 3** an
 - **Password:** helloboy
 *(Change after first login)*
 
-## 📸 Screenshots
-
-*(Add your screenshots here)*
-
 ## 🔧 Configuration
 
 Data is stored in: `%APPDATA%\BankManagementSystem\`
