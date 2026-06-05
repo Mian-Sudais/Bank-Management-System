@@ -89,7 +89,7 @@ A modern, secure, and feature-rich banking application built with **WinUI 3** an
 
 ## 📥 Installation
 
-1. Download the latest release (Setup file: ~37.1 MB)
+1. Download the latest **[Releases](https://github.com/Mian-Sudais/Bank-Management-System/releases)** (Setup file: ~37.1 MB)
 2. Run the installer
 3. Follow the installation wizard
 4. Launch the application
