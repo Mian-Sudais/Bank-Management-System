@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  CoreLogicFixed.cpp
+  dllmain.cpp
+     Creating library D:\Visual Pro Work\transparency check\Bank Management System\CoreLogic\x64\Release\CoreLogicFixed.lib and object D:\Visual Pro Work\transparency check\Bank Management System\CoreLogic\x64\Release\CoreLogicFixed.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 515 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CoreLogicFixed.vcxproj -> D:\Visual Pro Work\transparency check\Bank Management System\CoreLogic\x64\Release\CoreLogicFixed.dll

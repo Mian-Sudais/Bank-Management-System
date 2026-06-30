@@ -1,0 +1,405 @@
+﻿<Page
+x:Class="ModernUI.LoginPage"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Background="{StaticResource ContentBg}">
+    <Page.Resources>
+        <SolidColorBrush x:Key="SidebarBg"        Color="#0D1117"/>
+        <SolidColorBrush x:Key="AccentBlue"       Color="#2F80ED"/>
+        <SolidColorBrush x:Key="TextPrimary"      Color="#F0F6FC"/>
+        <SolidColorBrush x:Key="TextSecondary"    Color="#8B949E"/>
+        <SolidColorBrush x:Key="TextMuted"        Color="#A1A7AF"/>
+        <SolidColorBrush x:Key="ContentBg"        Color="#F6F8FA"/>
+        <SolidColorBrush x:Key="CardBg"           Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="CardBorder"       Color="#D0D7DE"/>
+        <SolidColorBrush x:Key="DividerColor"     Color="#21262D"/>
+        <SolidColorBrush x:Key="DividerLight"     Color="#30363D"/>
+        <SolidColorBrush x:Key="StatusGreen"      Color="#3FB950"/>
+        <SolidColorBrush x:Key="StatusRed"        Color="#F85149"/>
+        <SolidColorBrush x:Key="StatusYellow"     Color="#D29922"/>
+
+        <!-- Stable TextBox — no hover/focus border changes -->
+        <Style x:Key="StyledTextBox" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="Foreground" Value="#1F2328"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D0D7DE"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="Margin" Value="0,4,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <Border x:Name="BorderElement"
+Background="{TemplateBinding Background}"
+BorderBrush="{TemplateBinding BorderBrush}"
+BorderThickness="{TemplateBinding BorderThickness}"
+CornerRadius="{TemplateBinding CornerRadius}"/>
+                            <ScrollViewer x:Name="ContentElement"
+Margin="{TemplateBinding Padding}"
+HorizontalScrollBarVisibility="Hidden"
+VerticalScrollBarVisibility="Hidden"
+HorizontalScrollMode="Auto"
+VerticalScrollMode="Disabled"
+AutomationProperties.AccessibilityView="Raw"/>
+                            <TextBlock x:Name="PlaceholderTextContentPresenter"
+Foreground="#A1A7AF"
+Margin="{TemplateBinding Padding}"
+IsHitTestVisible="False"
+Text="{TemplateBinding PlaceholderText}"
+TextWrapping="{TemplateBinding TextWrapping}"
+VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Focused"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="ButtonStates">
+                                    <VisualState x:Name="ButtonVisible"/>
+                                    <VisualState x:Name="ButtonCollapsed"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Stable PasswordBox -->
+        <Style x:Key="StyledPasswordBox" TargetType="PasswordBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="Foreground" Value="#1F2328"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D0D7DE"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="Margin" Value="0,4,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Grid>
+                            <Border x:Name="BorderElement"
+Background="{TemplateBinding Background}"
+BorderBrush="{TemplateBinding BorderBrush}"
+BorderThickness="{TemplateBinding BorderThickness}"
+CornerRadius="{TemplateBinding CornerRadius}"/>
+                            <ScrollViewer x:Name="ContentElement"
+Margin="{TemplateBinding Padding}"
+HorizontalScrollBarVisibility="Hidden"
+VerticalScrollBarVisibility="Hidden"
+HorizontalScrollMode="Auto"
+VerticalScrollMode="Disabled"
+AutomationProperties.AccessibilityView="Raw"/>
+                            <TextBlock x:Name="PlaceholderTextContentPresenter"
+Foreground="#A1A7AF"
+Margin="{TemplateBinding Padding}"
+IsHitTestVisible="False"
+Text="{TemplateBinding PlaceholderText}"
+VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Focused"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- FIXED ComboBox with visible dropdown items -->
+        <Style x:Key="StyledComboBox" TargetType="ComboBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="Foreground" Value="#1F2328"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D0D7DE"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="12,8"/>
+            <Setter Property="Margin" Value="0,4,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ComboBox">
+                        <Grid>
+                            <Border x:Name="BorderElement"
+Background="{TemplateBinding Background}"
+BorderBrush="{TemplateBinding BorderBrush}"
+BorderThickness="{TemplateBinding BorderThickness}"
+CornerRadius="{TemplateBinding CornerRadius}"/>
+                            <ContentPresenter x:Name="ContentPresenter"
+Margin="{TemplateBinding Padding}"
+HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+VerticalAlignment="Center"
+Content="{TemplateBinding SelectionBoxItem}"
+ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+Foreground="#1F2328"/>
+                            <Border HorizontalAlignment="Right" Width="40" CornerRadius="0,8,8,0">
+                                <FontIcon Glyph="&#xE70D;" FontSize="10" Foreground="#57606A"
+HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <Popup x:Name="Popup">
+                                <Border Background="White" BorderBrush="#D0D7DE" BorderThickness="1" CornerRadius="8" Padding="0">
+                                    <ScrollViewer x:Name="ScrollViewer" AutomationProperties.AccessibilityView="Raw">
+                                        <ItemsPresenter x:Name="ItemsPresenter"/>
+                                    </ScrollViewer>
+                                </Border>
+                            </Popup>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Pressed"/>
+                                    <VisualState x:Name="Focused"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ComboBoxItem Style - CRITICAL FOR VISIBILITY -->
+        <Style TargetType="ComboBoxItem">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#1F2328"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="Padding" Value="12,8"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ComboBoxItem">
+                        <Border x:Name="Root" 
+Background="{TemplateBinding Background}" 
+Padding="{TemplateBinding Padding}"
+CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+VerticalAlignment="Center"
+Foreground="#1F2328"/>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="Root" 
+Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+To="#F0F4F8" Duration="0:0:0.1"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Selected">
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="Root" 
+Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+To="#E8F0FE" Duration="0:0:0.1"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Premium Button — no hover effects -->
+        <Style x:Key="PremiumButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource AccentBlue}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="RootGrid" CornerRadius="8">
+                            <Border x:Name="BackgroundBorder"
+CornerRadius="8"
+Background="{TemplateBinding Background}"/>
+                            <ContentPresenter x:Name="ContentPresenter"
+Content="{TemplateBinding Content}"
+HorizontalContentAlignment="Center"
+VerticalContentAlignment="Center"/>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="BackgroundBorder"
+Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+To="#1556B3" Duration="0:0:0.06"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.1"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="StyledHyperlink" TargetType="HyperlinkButton">
+            <Setter Property="Foreground" Value="{StaticResource AccentBlue}"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+    </Page.Resources>
+    <Page.Transitions>
+        <TransitionCollection>
+            <EntranceThemeTransition IsStaggeringEnabled="True"/>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <!-- ════════════════════════════════════════════════════════════
+         SCROLLABLE CONTAINER - Allows scrolling to see error messages
+         ════════════════════════════════════════════════════════════ -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto" 
+                  HorizontalScrollBarVisibility="Disabled"
+                  Padding="24">
+
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Top" MinHeight="100">
+            <Border Width="440"
+    CornerRadius="16"
+    Background="{StaticResource CardBg}"
+    BorderThickness="1"
+    BorderBrush="{StaticResource CardBorder}"
+    Padding="32,28"
+    Margin="0,24">
+                <StackPanel Spacing="16">
+                    <!-- Logo / Header -->
+                    <StackPanel HorizontalAlignment="Center" Spacing="8" Margin="0,0,0,8">
+                        <Border Width="56" Height="56"
+CornerRadius="14"
+Background="{StaticResource AccentBlue}"
+HorizontalAlignment="Center">
+                            <FontIcon Glyph="&#xE8F7;"
+FontSize="24"
+Foreground="White"
+HorizontalAlignment="Center"
+VerticalAlignment="Center"/>
+                        </Border>
+                        <TextBlock Text="Bank Management System"
+FontSize="22"
+FontWeight="SemiBold"
+FontFamily="Segoe UI Variable Display"
+Foreground="#1F2328"
+HorizontalAlignment="Center"/>
+                        <TextBlock Text="Secure access to your financial dashboard"
+FontSize="12"
+FontFamily="Segoe UI Variable Text"
+Foreground="{StaticResource TextSecondary}"
+HorizontalAlignment="Center"
+TextWrapping="Wrap"/>
+                    </StackPanel>
+                    <Border Height="1" Background="{StaticResource CardBorder}" Margin="0,8" Opacity="0.6"/>
+
+                    <!-- Login Form -->
+                    <StackPanel Spacing="12">
+                        <TextBlock Text="Login Type"
+FontSize="12"
+FontWeight="SemiBold"
+FontFamily="Segoe UI Variable Text"
+Foreground="#57606A"
+CharacterSpacing="50"/>
+                        <ComboBox x:ConnectionId='55' x:Name="RoleCombo"
+SelectedIndex="0"
+Style="{StaticResource StyledComboBox}"
+HorizontalAlignment="Stretch">
+                            <ComboBoxItem Content="Customer"/>
+                            <ComboBoxItem Content="Admin"/>
+                        </ComboBox>
+                        <TextBlock Text="ID"
+FontSize="12"
+FontWeight="SemiBold"
+FontFamily="Segoe UI Variable Text"
+Foreground="#57606A"
+CharacterSpacing="50"
+Margin="0,8,0,2"/>
+                        <TextBox x:ConnectionId='56' x:Name="IdBox"
+PlaceholderText="Customer ID or EMP001"
+Style="{StaticResource StyledTextBox}"/>
+                        <TextBlock Text="Password"
+FontSize="12"
+FontWeight="SemiBold"
+FontFamily="Segoe UI Variable Text"
+Foreground="#57606A"
+CharacterSpacing="50"
+Margin="0,8,0,2"/>
+                        <PasswordBox x:ConnectionId='57' x:Name="PassBox"
+PlaceholderText="Enter your password"
+Style="{StaticResource StyledPasswordBox}"/>
+
+                        <!-- Login Button -->
+                        <Button x:ConnectionId='58' x:Name="LoginBtn"
+Content="Sign In"
+                      
+Style="{StaticResource PremiumButtonStyle}"
+Margin="0,12,0,4"/>
+
+                        <!-- Links -->
+                        <StackPanel HorizontalAlignment="Center" Spacing="4" Margin="0,8,0,0">
+                            <TextBlock HorizontalAlignment="Center" FontSize="13">
+<Run Text="Don't have an account? " Foreground="{StaticResource TextSecondary}"/>
+<Hyperlink x:ConnectionId='60'                         >
+<Run Text="Sign Up" Foreground="{StaticResource AccentBlue}" FontFamily="Segoe UI Variable Text" FontWeight="SemiBold"/>
+</Hyperlink>
+                            </TextBlock>
+                            <TextBlock HorizontalAlignment="Center" FontSize="13">
+<Hyperlink x:ConnectionId='59'                         >
+<Run Text="Forgot Password?" Foreground="{StaticResource AccentBlue}" FontFamily="Segoe UI Variable Text" FontWeight="SemiBold"/>
+</Hyperlink>
+                            </TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Error Message - Now scrollable -->
+                    <InfoBar x:ConnectionId='54' x:Name="ErrorBar"
+Severity="Error"
+IsOpen="False"
+IsClosable="True"
+Margin="0,12,0,0"
+FontFamily="Segoe UI Variable Text"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</Page>
+

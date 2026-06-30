@@ -1,0 +1,315 @@
+﻿<Page
+x:Class="ModernUI.SignupPage"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Background="{StaticResource ContentBg}">
+    <Page.Resources>
+        <SolidColorBrush x:Key="SidebarBg"        Color="#0D1117"/>
+        <SolidColorBrush x:Key="AccentBlue"       Color="#2F80ED"/>
+        <SolidColorBrush x:Key="TextPrimary"      Color="#F0F6FC"/>
+        <SolidColorBrush x:Key="TextSecondary"    Color="#8B949E"/>
+        <SolidColorBrush x:Key="TextMuted"        Color="#A1A7AF"/>
+        <SolidColorBrush x:Key="ContentBg"        Color="#F6F8FA"/>
+        <SolidColorBrush x:Key="CardBg"           Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="CardBorder"       Color="#D0D7DE"/>
+        <SolidColorBrush x:Key="DividerColor"     Color="#21262D"/>
+        <SolidColorBrush x:Key="DividerLight"     Color="#30363D"/>
+        <SolidColorBrush x:Key="StatusGreen"      Color="#3FB950"/>
+        <SolidColorBrush x:Key="StatusRed"        Color="#F85149"/>
+        <SolidColorBrush x:Key="StatusYellow"     Color="#D29922"/>
+
+        <Style x:Key="StyledTextBox" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="Foreground" Value="#1F2328"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D0D7DE"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="Margin" Value="0,4,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <Border x:Name="BorderElement"
+Background="{TemplateBinding Background}"
+BorderBrush="{TemplateBinding BorderBrush}"
+BorderThickness="{TemplateBinding BorderThickness}"
+CornerRadius="{TemplateBinding CornerRadius}"/>
+                            <ScrollViewer x:Name="ContentElement"
+Margin="{TemplateBinding Padding}"
+HorizontalScrollBarVisibility="Hidden"
+VerticalScrollBarVisibility="Hidden"
+HorizontalScrollMode="Auto"
+VerticalScrollMode="Disabled"
+AutomationProperties.AccessibilityView="Raw"/>
+                            <TextBlock x:Name="PlaceholderTextContentPresenter"
+Foreground="#A1A7AF"
+Margin="{TemplateBinding Padding}"
+IsHitTestVisible="False"
+Text="{TemplateBinding PlaceholderText}"
+TextWrapping="{TemplateBinding TextWrapping}"
+VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Focused"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="ButtonStates">
+                                    <VisualState x:Name="ButtonVisible"/>
+                                    <VisualState x:Name="ButtonCollapsed"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="StyledPasswordBox" TargetType="PasswordBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="Foreground" Value="#1F2328"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D0D7DE"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="Margin" Value="0,4,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Grid>
+                            <Border x:Name="BorderElement"
+Background="{TemplateBinding Background}"
+BorderBrush="{TemplateBinding BorderBrush}"
+BorderThickness="{TemplateBinding BorderThickness}"
+CornerRadius="{TemplateBinding CornerRadius}"/>
+                            <ScrollViewer x:Name="ContentElement"
+Margin="{TemplateBinding Padding}"
+HorizontalScrollBarVisibility="Hidden"
+VerticalScrollBarVisibility="Hidden"
+HorizontalScrollMode="Auto"
+VerticalScrollMode="Disabled"
+AutomationProperties.AccessibilityView="Raw"/>
+                            <TextBlock x:Name="PlaceholderTextContentPresenter"
+Foreground="#A1A7AF"
+Margin="{TemplateBinding Padding}"
+IsHitTestVisible="False"
+Text="{TemplateBinding PlaceholderText}"
+VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Focused"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="PremiumButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource AccentBlue}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="RootGrid" CornerRadius="8">
+                            <Border x:Name="BackgroundBorder"
+CornerRadius="8"
+Background="{TemplateBinding Background}"/>
+                            <ContentPresenter x:Name="ContentPresenter"
+Content="{TemplateBinding Content}"
+HorizontalContentAlignment="Center"
+VerticalContentAlignment="Center"/>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="BackgroundBorder"
+Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+To="#1556B3" Duration="0:0:0.06"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.1"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="StyledHyperlink" TargetType="HyperlinkButton">
+            <Setter Property="Foreground" Value="{StaticResource AccentBlue}"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+    </Page.Resources>
+    <Page.Transitions>
+        <TransitionCollection>
+            <EntranceThemeTransition IsStaggeringEnabled="True"/>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <!-- SCROLLABLE CONTAINER -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto" 
+              HorizontalScrollBarVisibility="Disabled"
+              Padding="24">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Top" MinHeight="100">
+            <Border Width="460"
+                CornerRadius="16"
+                Background="{StaticResource CardBg}"
+                BorderThickness="1"
+                BorderBrush="{StaticResource CardBorder}"
+                Padding="32,28"
+                Margin="0,24">
+                <StackPanel Spacing="14">
+                    <!-- Header -->
+                    <StackPanel HorizontalAlignment="Center" Spacing="8" Margin="0,0,0,4">
+                        <Border Width="56" Height="56"
+                            CornerRadius="14"
+                            Background="{StaticResource AccentBlue}"
+                            HorizontalAlignment="Center">
+                            <FontIcon Glyph="&#xE8FA;"
+                                  FontSize="24"
+                                  Foreground="White"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"/>
+                        </Border>
+                        <TextBlock Text="Create Account"
+                               FontSize="22"
+                               FontWeight="SemiBold"
+                               FontFamily="Segoe UI Variable Display"
+                               Foreground="#1F2328"
+                               HorizontalAlignment="Center"/>
+                        <TextBlock Text="Join us to access secure banking services"
+                               FontSize="12"
+                               FontFamily="Segoe UI Variable Text"
+                               Foreground="{StaticResource TextSecondary}"
+                               HorizontalAlignment="Center"
+                               TextWrapping="Wrap"/>
+                    </StackPanel>
+                    <Border Height="1" Background="{StaticResource CardBorder}" Margin="0,8" Opacity="0.6"/>
+
+                    <!-- Signup Form -->
+                    <StackPanel Spacing="10">
+                        <TextBlock Text="Full Name"
+                               FontSize="12"
+                               FontWeight="SemiBold"
+                               FontFamily="Segoe UI Variable Text"
+                               Foreground="#57606A"
+                               CharacterSpacing="50"/>
+                        <TextBox x:ConnectionId='35' x:Name="NameBox"
+                             PlaceholderText="Enter your full name"
+                             Style="{StaticResource StyledTextBox}"/>
+
+                        <TextBlock Text="CNIC (13 digits)"
+                               FontSize="12"
+                               FontWeight="SemiBold"
+                               FontFamily="Segoe UI Variable Text"
+                               Foreground="#57606A"
+                               CharacterSpacing="50"
+                               Margin="0,8,0,2"/>
+                        <TextBox x:ConnectionId='36' x:Name="CnicBox"
+                             PlaceholderText="e.g. 4210112345678"
+                             MaxLength="13"
+                             Style="{StaticResource StyledTextBox}"
+                             InputScope="Number"/>
+
+                        <TextBlock Text="Phone (11 digits)"
+                               FontSize="12"
+                               FontWeight="SemiBold"
+                               FontFamily="Segoe UI Variable Text"
+                               Foreground="#57606A"
+                               CharacterSpacing="50"
+                               Margin="0,8,0,2"/>
+                        <TextBox x:ConnectionId='37' x:Name="PhoneBox"
+                             PlaceholderText="e.g. 03001234567"
+                             MaxLength="11"
+                             Style="{StaticResource StyledTextBox}"
+                             InputScope="Number"/>
+
+                        <TextBlock Text="Password"
+                               FontSize="12"
+                               FontWeight="SemiBold"
+                               FontFamily="Segoe UI Variable Text"
+                               Foreground="#57606A"
+                               CharacterSpacing="50"
+                               Margin="0,8,0,2"/>
+                        <PasswordBox x:ConnectionId='38' x:Name="PassBox"
+                                 PlaceholderText="Create a strong password"
+                                 Style="{StaticResource StyledPasswordBox}"/>
+
+                        <TextBlock Text="Confirm Password"
+                               FontSize="12"
+                               FontWeight="SemiBold"
+                               FontFamily="Segoe UI Variable Text"
+                               Foreground="#57606A"
+                               CharacterSpacing="50"
+                               Margin="0,8,0,2"/>
+                        <PasswordBox x:ConnectionId='39' x:Name="ConfirmBox"
+                                 PlaceholderText="Re-enter your password"
+                                 Style="{StaticResource StyledPasswordBox}"/>
+
+                        <!-- Signup Button -->
+                        <Button x:ConnectionId='40' x:Name="SignupBtn"
+                            Content="Create Account"
+                                                   
+                            Style="{StaticResource PremiumButtonStyle}"
+                            Margin="0,14,0,6"/>
+
+                        <!-- Login Link -->
+                        <TextBlock HorizontalAlignment="Center" FontSize="13" Margin="0,6,0,0">
+                        <Run Text="Already have an account? " Foreground="{StaticResource TextSecondary}"/>
+                        <Hyperlink x:ConnectionId='41'                        >
+                            <Run Text="Sign In" Foreground="{StaticResource AccentBlue}" FontFamily="Segoe UI Variable Text" FontWeight="SemiBold"/>
+                        </Hyperlink>
+                        </TextBlock>
+                    </StackPanel>
+
+                    <!-- Error Message - Now properly in visual tree -->
+                    <InfoBar x:ConnectionId='34' x:Name="ErrorBar"
+                         Severity="Error"
+                         IsOpen="False"
+                         IsClosable="True"
+                         Margin="0,10,0,0"
+                         FontFamily="Segoe UI Variable Text"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</Page>
+

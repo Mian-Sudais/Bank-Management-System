@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CoreLogicFixed.vcxproj" Id="3d3a5c46-acc4-450d-af4c-cfbdf070561c" />
+</Solution>

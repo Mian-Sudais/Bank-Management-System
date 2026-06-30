@@ -1,0 +1,389 @@
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\LockScreenLogo.scale-200.png
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\SplashScreen.scale-200.png
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Square150x150Logo.scale-200.png
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Square44x44Logo.scale-200.png
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\StoreLogo.png
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Wide310x150Logo.scale-200.png
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CoreLogic.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.exe
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.xbf
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.xbf
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.deps.json
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.runtimeconfig.json
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.pdb
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.pri
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Web.WebView2.Core.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CommunityToolkit.Mvvm.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Graphics.Imaging.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.ContentSafety.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Foundation.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Imaging.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Text.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Security.Authentication.OAuth.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.Background.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.BadgeNotifications.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Foundation.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Media.Capture.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Storage.Pickers.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Storage.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.System.Power.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.System.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.InteractiveExperiences.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.ML.OnnxRuntime.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.MachineLearning.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Widgets.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.WinUI.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Numerics.Tensors.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\WebView2Loader.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.CSharp.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.VisualBasic.Core.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.VisualBasic.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Win32.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Win32.Registry.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.AppContext.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Buffers.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Collections.Concurrent.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Collections.Immutable.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Collections.NonGeneric.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Collections.Specialized.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Collections.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ComponentModel.Annotations.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ComponentModel.DataAnnotations.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ComponentModel.EventBasedAsync.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ComponentModel.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ComponentModel.TypeConverter.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ComponentModel.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Configuration.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Console.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Core.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Data.Common.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Data.DataSetExtensions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Data.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.Contracts.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.Debug.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.DiagnosticSource.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.FileVersionInfo.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.Process.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.StackTrace.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.TextWriterTraceListener.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.Tools.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.TraceSource.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Diagnostics.Tracing.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Drawing.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Drawing.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Dynamic.Runtime.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Formats.Asn1.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Formats.Tar.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Globalization.Calendars.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Globalization.Extensions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Globalization.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.Compression.Brotli.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.Compression.FileSystem.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.Compression.ZipFile.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.Compression.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.FileSystem.AccessControl.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.FileSystem.DriveInfo.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.FileSystem.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.FileSystem.Watcher.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.FileSystem.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.IsolatedStorage.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.MemoryMappedFiles.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.Pipes.AccessControl.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.Pipes.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.UnmanagedMemoryStream.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Linq.Expressions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Linq.Parallel.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Linq.Queryable.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Linq.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Memory.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Http.Json.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Http.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.HttpListener.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Mail.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.NameResolution.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.NetworkInformation.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Ping.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Quic.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Requests.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Security.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.ServicePoint.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.Sockets.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.WebClient.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.WebHeaderCollection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.WebProxy.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.WebSockets.Client.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.WebSockets.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Net.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Numerics.Vectors.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Numerics.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ObjectModel.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Private.CoreLib.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Private.DataContractSerialization.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Private.Uri.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Private.Xml.Linq.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Private.Xml.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.DispatchProxy.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.Emit.ILGeneration.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.Emit.Lightweight.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.Emit.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.Extensions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.Metadata.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.TypeExtensions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Reflection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Resources.Reader.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Resources.ResourceManager.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Resources.Writer.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.CompilerServices.VisualC.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Extensions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Handles.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.InteropServices.JavaScript.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.InteropServices.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Intrinsics.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Loader.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Numerics.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Serialization.Formatters.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Serialization.Json.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Serialization.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Serialization.Xml.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.Serialization.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Runtime.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.AccessControl.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Claims.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.Algorithms.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.Cng.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.Csp.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.Encoding.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.OpenSsl.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.Primitives.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.X509Certificates.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Cryptography.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Principal.Windows.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.Principal.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.SecureString.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Security.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ServiceModel.Web.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ServiceProcess.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Text.Encoding.CodePages.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Text.Encoding.Extensions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Text.Encoding.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Text.Encodings.Web.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Text.Json.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Text.RegularExpressions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Channels.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Overlapped.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Tasks.Dataflow.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Tasks.Extensions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Tasks.Parallel.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Tasks.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Thread.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.ThreadPool.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.Timer.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Threading.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Transactions.Local.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Transactions.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.ValueTuple.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Web.HttpUtility.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Web.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Windows.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.Linq.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.ReaderWriter.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.Serialization.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.XDocument.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.XPath.XDocument.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.XPath.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.XmlDocument.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.XmlSerializer.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Xml.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\WindowsBase.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\mscorlib.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\netstandard.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.DiaSymReader.Native.arm64.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.IO.Compression.Native.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\clretwrc.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\clrgc.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\clrjit.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\coreclr.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\createdump.exe
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\hostfxr.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\hostpolicy.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\mscordaccore.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\mscordaccore_arm64_arm64_8.0.2526.11203.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\mscordbi.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\mscorrc.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\msquic.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.SDK.NET.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\WinRT.Runtime.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.csproj.AssemblyReference.cache
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.g.i.cs
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.g.cs
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.g.i.cs
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.g.cs
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\XamlTypeInfo.g.cs
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.xaml
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.xaml
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.xbf
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.xbf
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\XamlSaveStateFile.xml
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.AssemblyInfoInputs.cache
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.AssemblyInfo.cs
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.csproj.CoreCompileInputs.cache
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.csproj.Up2Date
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\refint\ModernUI.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.pdb
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.genruntimeconfig.cache
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ref\ModernUI.dll
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\priconfig.xml
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\priconfig.xml.intermediate
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\unfiltered.layout.resfiles
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\unfiltered.layout.resfiles.intermediate
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\filtered.layout.resfiles
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\filtered.layout.resfiles.intermediate
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\excluded.layout.resfiles
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\excluded.layout.resfiles.intermediate
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\resources.resfiles
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\resources.resfiles.intermediate
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\pri.resfiles
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\pri.resfiles.intermediate
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\qualifiers.txt
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\qualifiers.txt.intermediate
+D:\Visual Pro Work\ModernApp\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MultipleQualifiersPerDimensionFound.txt
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\LockScreenLogo.scale-200.png
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\SplashScreen.scale-200.png
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Square150x150Logo.scale-200.png
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Square44x44Logo.scale-200.png
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\StoreLogo.png
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Assets\Wide310x150Logo.scale-200.png
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CoreLogic.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.exe
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\AdminDashboardPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CustomerDashboardPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ForgotPasswordPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\LoginPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\SignupPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.deps.json
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.runtimeconfig.json
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.pdb
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.pri
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Web.WebView2.Core.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CommunityToolkit.Mvvm.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Graphics.Imaging.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.ContentSafety.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Foundation.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Imaging.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.Text.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Security.Authentication.OAuth.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.Background.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.BadgeNotifications.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Foundation.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Media.Capture.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Storage.Pickers.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Storage.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.System.Power.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.System.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.InteractiveExperiences.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.ML.OnnxRuntime.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.AI.MachineLearning.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.Widgets.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.WinUI.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\System.Numerics.Tensors.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\WebView2Loader.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Windows.SDK.NET.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\WinRT.Runtime.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\bin\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.csproj.AssemblyReference.cache
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.g.i.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\AdminDashboardPage.g.i.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\AdminDashboardPage.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CustomerDashboardPage.g.i.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CustomerDashboardPage.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ForgotPasswordPage.g.i.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ForgotPasswordPage.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\LoginPage.g.i.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\LoginPage.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.g.i.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\SignupPage.g.i.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\SignupPage.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\XamlTypeInfo.g.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.xaml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\AdminDashboardPage.xaml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CustomerDashboardPage.xaml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ForgotPasswordPage.xaml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\LoginPage.xaml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.xaml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\SignupPage.xaml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\App.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\AdminDashboardPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\CustomerDashboardPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ForgotPasswordPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\LoginPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MainWindow.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\SignupPage.xbf
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\XamlSaveStateFile.xml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.AssemblyInfoInputs.cache
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.AssemblyInfo.cs
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.csproj.CoreCompileInputs.cache
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.csproj.Up2Date
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\refint\ModernUI.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.pdb
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ModernUI.genruntimeconfig.cache
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\ref\ModernUI.dll
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\priconfig.xml
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\priconfig.xml.intermediate
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\unfiltered.layout.resfiles
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\unfiltered.layout.resfiles.intermediate
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\filtered.layout.resfiles
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\filtered.layout.resfiles.intermediate
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\excluded.layout.resfiles
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\excluded.layout.resfiles.intermediate
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\resources.resfiles
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\resources.resfiles.intermediate
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\pri.resfiles
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\pri.resfiles.intermediate
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\qualifiers.txt
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\qualifiers.txt.intermediate
+D:\Visual Pro Work\Bank Management System\CoreLogic\ModernUI\obj\ARM64\Release\net8.0-windows10.0.19041.0\win-arm64\MultipleQualifiersPerDimensionFound.txt

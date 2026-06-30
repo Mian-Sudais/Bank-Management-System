@@ -1,0 +1,227 @@
+﻿<Page
+    x:Class="ModernUI.AdminDashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="Transparent">
+
+    <Page.Resources>
+        <SolidColorBrush x:Key="SidebarBg" Color="#0D1117" />
+        <SolidColorBrush x:Key="AccentBlue" Color="#2F80ED" />
+        <SolidColorBrush x:Key="TextPrimary" Color="#F0F6FC" />
+        <SolidColorBrush x:Key="TextSecondary" Color="#8B949E" />
+        <SolidColorBrush x:Key="TextMuted" Color="#A1A7AF" />
+        <SolidColorBrush x:Key="ContentBg" Color="#F6F8FA" />
+        <SolidColorBrush x:Key="CardBg" Color="#FFFFFF" />
+        <SolidColorBrush x:Key="CardBorder" Color="#D0D7DE" />
+        <SolidColorBrush x:Key="DividerColor" Color="#21262D" />
+        <SolidColorBrush x:Key="DividerLight" Color="#30363D" />
+        <SolidColorBrush x:Key="StatusGreen" Color="#3FB950" />
+        <SolidColorBrush x:Key="StatusRed" Color="#F85149" />
+        <SolidColorBrush x:Key="StatusYellow" Color="#D29922" />
+
+        <!-- Search Box Style using the global permanent border fix -->
+        <Style x:Key="SearchTextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource StyledTextBox}">
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Padding" Value="12,9" />
+        </Style>
+
+        <Style x:Key="SearchBtnStyle" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource AccentBlue}" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Padding" Value="18,9" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Root" Background="{TemplateBinding Background}" CornerRadius="{TemplateBinding CornerRadius}" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{TemplateBinding Foreground}" />
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal" />
+                                    <VisualState x:Name="PointerOver" />
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="Root" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" To="#1556B3" Duration="0:0:0.06" />
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Root" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0" />
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ClearBtnStyle" TargetType="Button">
+            <Setter Property="Background" Value="#F6F8FA" />
+            <Setter Property="Foreground" Value="#57606A" />
+            <Setter Property="BorderBrush" Value="#D0D7DE" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontFamily" Value="Segoe UI Variable Text" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Padding" Value="18,9" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Root" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="{TemplateBinding CornerRadius}" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{TemplateBinding Foreground}" />
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal" />
+                                    <VisualState x:Name="PointerOver" />
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="Root" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" To="#E6EBF0" Duration="0:0:0.06" />
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Root" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0" />
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <EntranceThemeTransition IsStaggeringEnabled="True" />
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- SIDEBAR -->
+        <Grid Grid.Column="0" Background="{StaticResource SidebarBg}">
+            <Border HorizontalAlignment="Right" Width="1" Background="{StaticResource DividerLight}" Opacity="0.4" />
+            <StackPanel Margin="0,0,1,0">
+                <Border Padding="16,24,16,20" BorderThickness="0,0,0,1" BorderBrush="{StaticResource DividerColor}">
+                    <StackPanel>
+                        <Border Width="48" Height="48" CornerRadius="24" HorizontalAlignment="Left" Margin="0,0,0,12" Background="{StaticResource AccentBlue}">
+                            <FontIcon Glyph="&#xE7EF;" FontSize="20" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <TextBlock Text="Administrator" FontSize="11" FontFamily="Segoe UI Variable Text" Foreground="{StaticResource TextSecondary}" />
+                        <TextBlock Text="Admin Panel" FontSize="15" FontWeight="SemiBold" FontFamily="Segoe UI Variable Display" Foreground="{StaticResource TextPrimary}" Margin="0,2,0,0" />
+                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                            <Ellipse Width="7" Height="7" Fill="{StaticResource StatusGreen}" VerticalAlignment="Center" Margin="0,0,6,0" />
+                            <TextBlock Text="System Online" FontSize="11" FontFamily="Segoe UI Variable Text" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <ScrollViewer VerticalScrollBarVisibility="Hidden" Padding="8,12,8,0">
+                    <StackPanel>
+                        <TextBlock Text="Customer Management" Style="{StaticResource SectionLabel}" />
+                        <Button x:ConnectionId='23' x:Name="ViewAllBtn"                          Style="{StaticResource NavButtonStyle}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <FontIcon Glyph="&#xE8F0;" FontSize="15" Foreground="{StaticResource TextMuted}" />
+                                <TextBlock Text="All Customers" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Button x:ConnectionId='24' x:Name="SearchBtn"                         Style="{StaticResource NavButtonStyle}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <FontIcon Glyph="&#xE721;" FontSize="15" Foreground="{StaticResource TextMuted}" />
+                                <TextBlock Text="Search Customer" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Border Style="{StaticResource SectionDivider}" />
+                        <TextBlock Text="Account Controls" Style="{StaticResource SectionLabel}" />
+                        <Button x:ConnectionId='25' x:Name="FreezeBtn"                         Style="{StaticResource NavButtonStyle}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <FontIcon Glyph="&#xE7B8;" FontSize="15" Foreground="{StaticResource StatusYellow}" />
+                                <TextBlock Text="Freeze Account" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Button x:ConnectionId='26' x:Name="UnfreezeBtn"                           Style="{StaticResource NavButtonStyle}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <FontIcon Glyph="&#xE74A;" FontSize="15" Foreground="{StaticResource StatusGreen}" />
+                                <TextBlock Text="Unfreeze Account" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Border Style="{StaticResource SectionDivider}" />
+                        <TextBlock Text="Loan Management" Style="{StaticResource SectionLabel}" />
+                        <Button x:ConnectionId='27' x:Name="ApproveLoanBtn"                              Style="{StaticResource NavButtonStyle}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <FontIcon Glyph="&#xE8A1;" FontSize="15" Foreground="{StaticResource AccentBlue}" />
+                                <TextBlock Text="Approve Loan" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </ScrollViewer>
+
+                <Border Padding="8,12" BorderThickness="0,1,0,0" BorderBrush="{StaticResource DividerColor}" Margin="0,8,0,0">
+                    <Button x:ConnectionId='22' x:Name="LogoutBtn"                         Style="{StaticResource DangerNavButtonStyle}" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <FontIcon Glyph="&#xE7E8;" FontSize="15" />
+                            <TextBlock Text="Sign Out" VerticalAlignment="Center" FontWeight="SemiBold" />
+                        </StackPanel>
+                    </Button>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        <!-- MAIN CONTENT -->
+        <Grid Grid.Column="1" Background="{StaticResource ContentBg}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="56" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Padding="24,0" BorderThickness="0,0,0,1" Background="White" BorderBrush="{StaticResource CardBorder}">
+                <Grid>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="6">
+                        <TextBlock Text="Admin Dashboard" FontSize="14" FontWeight="SemiBold" FontFamily="Segoe UI Variable Display" Foreground="#1F2328" />
+                        <FontIcon Glyph="&#xE76C;" FontSize="10" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center" />
+                        <TextBlock x:ConnectionId='21' x:Name="PageSubtitleText" Text="Overview" FontSize="13" FontFamily="Segoe UI Variable Text" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Padding="24,14,24,12" Background="White" BorderThickness="0,0,0,1" BorderBrush="{StaticResource CardBorder}">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <!-- SearchBox now uses the fixed style -->
+                    <TextBox x:ConnectionId='18' x:Name="SearchBox" PlaceholderText="Search by name or CNIC..." Width="320" Style="{StaticResource StyledTextBox}" />
+                    <Button x:ConnectionId='19' Content="Search"                         Style="{StaticResource SearchBtnStyle}" />
+                    <Button x:ConnectionId='20' Content="Clear"                        Style="{StaticResource ClearBtnStyle}" />
+                </StackPanel>
+            </Border>
+
+            <ScrollViewer Grid.Row="2" Padding="28,24">
+                <StackPanel Spacing="16">
+                    <Border x:ConnectionId='16' x:Name="ResultCard" CornerRadius="12" Padding="20" BorderThickness="1" BorderBrush="{StaticResource CardBorder}" Background="{StaticResource CardBg}" MinHeight="400">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,16" Spacing="8">
+                                <Border Width="6" Height="6" CornerRadius="3" Background="{StaticResource AccentBlue}" VerticalAlignment="Center" />
+                                <TextBlock Text="OUTPUT" FontSize="11" FontWeight="SemiBold" FontFamily="Segoe UI Variable Text" Foreground="#57606A" VerticalAlignment="Center" CharacterSpacing="80" />
+                            </StackPanel>
+                            <Border Height="1" Background="{StaticResource CardBorder}" Margin="0,0,0,16" Opacity="0.6" />
+                            <TextBlock x:ConnectionId='17' x:Name="ResultText" TextWrapping="Wrap" FontFamily="Cascadia Code, Consolas, Courier New" FontSize="13" LineHeight="22" Foreground="#1F2328" IsTextSelectionEnabled="True" Text="Select an action from the sidebar to begin administrative tasks." />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>
+

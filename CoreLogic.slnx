@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/" />
+  <Project Path="CoreLogicFixed/CoreLogicFixed.vcxproj" Id="3d3a5c46-acc4-450d-af4c-cfbdf070561c">
+    <Platform Solution="*|ARM64" Project="x64" />
+  </Project>
+  <Project Path="ModernUI/ModernUI.csproj" Id="ea5cea97-350c-4baf-bb5d-7aac3007f8ad">
+    <BuildDependency Project="CoreLogicFixed/CoreLogicFixed.vcxproj" />
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+</Solution>

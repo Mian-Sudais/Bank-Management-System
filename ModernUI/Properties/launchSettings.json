@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ModernUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ModernUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

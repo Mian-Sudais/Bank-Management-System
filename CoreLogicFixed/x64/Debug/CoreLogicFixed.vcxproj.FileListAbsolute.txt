@@ -1,0 +1,2 @@
+D:\Visual Pro Work\ModernApp\CoreLogic\CoreLogicFixed\x64\Debug\CoreLogicFixed.dll
+D:\Visual Pro Work\Library\ModernApp\CoreLogic\CoreLogicFixed\x64\Debug\CoreLogicFixed.dll
